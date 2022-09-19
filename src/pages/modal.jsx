@@ -15,7 +15,7 @@ function Modals(props) {
       </Button>
 
       <Modal show={show} onHide={handleClose}>
-        <Modal.Body><img src={props.img} class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="" /></Modal.Body>
+        <Modal.Body><img src={props.img} alt="" /></Modal.Body>
       </Modal>
     </>
   );

@@ -4,7 +4,7 @@ import "./ohospital.css"
 function Ohospital() {
     return(
     <>  <div className="container mt-3">
-        <h3 className="text-center">O Hospital</h3>
+        <h3 className="text-center bg-dark text-light">O Hospital</h3>
         <div class="row p-3 m-1">
             <div class="col-sm-6">
                 <p class="text-justify">Pariatur culpa ea sint adipisicing nostrud cupidatat ea. Sint aute nisi tempor fugiat ea in velit. Laborum occaecat cupidatat eu ea. Esse ipsum do dolor cupidatat fugiat consequat excepteur est tempor esse aute velit dolore. Consequat proident est nulla nisi occaecat labore culpa culpa cupidatat tempor adipisicing et. Ullamco sint nostrud quis ullamco ex deserunt. Id enim proident duis excepteur exercitation magna.<br/><br/>

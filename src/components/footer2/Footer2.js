@@ -21,9 +21,9 @@ const Footer2 = () => {
             <Container2 className="container-footer2-left">
                 <FooterLinkLeft href="/"> Home </FooterLinkLeft>
                 ||
-                <FooterLinkLeft href="about.html"> Sobre </FooterLinkLeft>
+                <FooterLinkLeft href="ohospital"> Sobre </FooterLinkLeft>
                 ||
-                <FooterLinkLeft href="services.html"> Serviços </FooterLinkLeft>
+                <FooterLinkLeft href="servicos"> Serviços </FooterLinkLeft>
                 ||
                 <FooterLinkLeft href="contact.html"> Contato </FooterLinkLeft>
             </Container2>

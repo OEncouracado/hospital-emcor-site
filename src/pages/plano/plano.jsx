@@ -23,48 +23,54 @@ import conab from "../../images/planos-e-convenios/conab.jfif"
 import pmerj from "../../images/planos-e-convenios/pmerj.png"
 import novaiguacu from "../../images/planos-e-convenios/pmni.png"
 import belroxo from "../../images/planos-e-convenios/pmbr.jpg"
-import {handleShow} from "../modal.jsx"
 import "./plano.css"
+import { useState } from "react";
+import IModal from "../../components/modal/modal";
+
 
 
 
 function Planos() {
+    const [openModal , setModal] = useState(false);
+
     return(
-        <><h3 className="text-center bg-dark text-light mb-5">Planos e Convênios</h3>
+        <>
+        {openModal && <IModal closeModal={setModal}/>}  
+        <h3 className="text-center bg-dark text-light mb-5">Planos e Convênios</h3>
             <div className="container justify-content-center">
-                
+       
                 <div className="row m-3">
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" onClick={handleShow} ><img class="img-responsive  w-100" src={amil} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={goldemcross} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={assimSaude} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={bradescoSaude} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={capesaude} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={cassi} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" onClick={()=> {setModal(true)}}><img className="img-responsive  w-100" src={amil} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={goldemcross} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={assimSaude} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={bradescoSaude} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={capesaude} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={cassi} alt="" /></div>
                     
                 </div>
                 <div className="row m-3">
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={leve} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={gama} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={geap} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={eletrosaude} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={notreDame} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={medservice} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={leve} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={gama} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={geap} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={eletrosaude} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={notreDame} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={medservice} alt="" /></div>
                 </div>
                 <div className="row m-3">
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={postal} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={portoSeguro} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={saudeCaixa} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={sulamerica} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={unimed} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={univida} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={postal} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={portoSeguro} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={saudeCaixa} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={sulamerica} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={unimed} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={univida} alt="" /></div>
                 </div>
                 <div className="row m-3">
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={petro} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={assefaz} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={conab} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={pmerj} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={novaiguacu} alt="" /></div>
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img class="img-responsive  w-100" src={belroxo} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={petro} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={assefaz} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={conab} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={pmerj} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={novaiguacu} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={belroxo} alt="" /></div>
                 </div>
             </div>
         </>

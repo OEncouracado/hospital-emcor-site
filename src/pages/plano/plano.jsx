@@ -24,23 +24,23 @@ import pmerj from "../../images/planos-e-convenios/pmerj.png"
 import novaiguacu from "../../images/planos-e-convenios/pmni.png"
 import belroxo from "../../images/planos-e-convenios/pmbr.jpg"
 import "./plano.css"
-import { useState } from "react";
-import IModal from "../../components/modal/modal";
+// import { useState } from "react";
+// import IModal from "../../components/modal/modal";
 
 
 
 
 function Planos() {
-    const [openModal , setModal] = useState(false);
+    // const [openModal , setModal] = useState(false);
+    // const [modalImg , setImg] =useState();
 
     return(
         <>
-        {openModal && <IModal closeModal={setModal}/>}  
+        {/* {openModal && <IModal closeModal={setModal} Src={modalImg}/>}   */}
         <h3 className="text-center bg-dark text-light mb-5">Planos e Convênios</h3>
             <div className="container justify-content-center">
-       
                 <div className="row m-3">
-                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" onClick={()=> {setModal(true)}}><img className="img-responsive  w-100" src={amil} alt="" /></div>
+                    <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={amil} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={goldemcross} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={assimSaude} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={bradescoSaude} alt="" /></div>

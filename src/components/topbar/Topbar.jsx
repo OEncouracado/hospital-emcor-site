@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Button } from "react-bootstrap";
 
 
 function Topbar() {
@@ -28,6 +29,7 @@ function Topbar() {
                         <NavDropdown.Item href="plano">Planos e Convênios</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="servicos">Serviços</Nav.Link>
+                    <Button className="navButton m-1" href="resultado" >Resultados</Button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

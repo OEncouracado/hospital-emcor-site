@@ -3,8 +3,9 @@ import "./ohospital.css"
 
 function Ohospital() {
     return(
-    <>  <div className="container mt-3">
-        <h3 className="text-center bg-dark text-light">O Hospital</h3>
+    <>  <h3 className="text-center bg-dark text-light">O Hospital</h3>
+    <div className="container mt-3">
+        
         <div class="row p-3 m-1">
             <div class="col-sm-6">
                 <p class="text-justify">Pariatur culpa ea sint adipisicing nostrud cupidatat ea. Sint aute nisi tempor fugiat ea in velit. Laborum occaecat cupidatat eu ea. Esse ipsum do dolor cupidatat fugiat consequat excepteur est tempor esse aute velit dolore. Consequat proident est nulla nisi occaecat labore culpa culpa cupidatat tempor adipisicing et. Ullamco sint nostrud quis ullamco ex deserunt. Id enim proident duis excepteur exercitation magna.<br/><br/>
@@ -14,15 +15,15 @@ function Ohospital() {
                 <div className="container ">
                     <div className="teste" style={{marginLeft: "20px"}}>
                         <span style={{fontSize: "18px", fontWeight: "bold"}}>Missão</span>
-                        <span style={{fontSize: "16px",marginBottom:"70px"}}>Acolher e Cuidar</span>
+                        <span style={{fontSize: "16px",marginBottom:"70px"}}>Cuidar do Coração da baixada</span>
                     </div>
                     <div className="teste" style={{marginLeft: "20px"}}>
                         <span style={{fontSize: "18px", fontWeight: "bold"}}>Visão</span>
-                        <span style={{fontSize: "16px",marginBottom:"70px"}}>Ser referência de assistência integral, humanizada e de qualidade na Zona Norte do Rio de Janeiro.</span>
+                        <span style={{fontSize: "16px",marginBottom:"70px"}}>Ser referência de cuidado cardiológico e de qualidade no estado do Rio de Janeiro.</span>
                     </div>
                     <div className="teste" style={{marginLeft: "20px"}}>
                         <span style={{fontSize: "18px", fontWeight: "bold"}}>Valores</span>
-                        <span style={{fontSize: "16px",}}>Humanização, Competência, Integridade, Sustentabilidade e Compromisso.</span>
+                        <span style={{fontSize: "16px",}}>Familia, Competência, Integridade, Sustentabilidade e Compromisso.</span>
                     </div>
                 </div>
             </div>

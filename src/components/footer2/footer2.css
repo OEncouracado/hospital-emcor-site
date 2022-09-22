@@ -25,3 +25,12 @@
     transform: scale(1.05);
         transition: 200ms ease-in;
 }
+.navButton:hover{
+    background-image: url(../../images/medcloud.png);
+    background-color: blue;
+    background-blend-mode:color-burn;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: ease-in-out 0.3s;
+}

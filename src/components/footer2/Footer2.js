@@ -1,3 +1,4 @@
+import { Button } from "react-bootstrap";
 import React from "react";
 import "./footer2.css"
 import {
@@ -9,6 +10,7 @@ import {
   Heading,Company,FooterLinkCenter,
   Img
 } from "./Footer2Styles";
+
   
 const Footer2 = () => {
   return (
@@ -27,6 +29,7 @@ const Footer2 = () => {
                 ||
                 <FooterLinkLeft href="contact.html"> Contato </FooterLinkLeft>
             </Container2>
+            <Button className="navButton m-3" href="resultado" >Resultados</Button>
           </Column>
           <Column className="center"style= {{padding: 0}}>
             <Container>

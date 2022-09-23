@@ -8,6 +8,7 @@ import Ohospital from "./pages/Ohospital/Ohospital";
 import Servicos from "./pages/Nova Pagina/servicos";
 import Planos from "./pages/plano/plano";
 import Resultados from "./pages/Resultados/Resultados";
+import Contato from "./pages/Contato/Contato";
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
         <Route exact path="/OHospital" element={<Ohospital />} />
         <Route exact path="/plano" element={<Planos />} />
         <Route exact path="/resultado" element={<Resultados />} />
-
+        <Route exact path="/contato" element={<Contato />} />
       </Routes>
       <Footer2 />
       <CookieConsent

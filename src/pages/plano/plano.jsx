@@ -24,6 +24,7 @@ import pmerj from "../../images/planos-e-convenios/pmerj.png"
 import novaiguacu from "../../images/planos-e-convenios/pmni.png"
 import belroxo from "../../images/planos-e-convenios/pmbr.jpg"
 import "./plano.css"
+import Flip from 'react-reveal/Flip'
 // import { useState } from "react";
 // import IModal from "../../components/modal/modal";
 
@@ -39,6 +40,7 @@ function Planos() {
         {/* {openModal && <IModal closeModal={setModal} Src={modalImg}/>}   */}
         <h3 className="text-center bg-dark text-light mb-5">Planos e Convênios</h3>
             <div className="container justify-content-center">
+            <Flip left cascade>
                 <div className="row m-3">
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={amil} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={goldemcross} alt="" /></div>
@@ -47,7 +49,8 @@ function Planos() {
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={capesaude} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={cassi} alt="" /></div>
                     
-                </div>
+                </div></Flip>
+                <Flip right cascade>
                 <div className="row m-3">
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={leve} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={gama} alt="" /></div>
@@ -55,23 +58,24 @@ function Planos() {
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={eletrosaude} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={notreDame} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={medservice} alt="" /></div>
-                </div>
-                <div className="row m-3">
+                </div></Flip>
+               <Flip left cascade>  
+               <div className="row m-3">
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={postal} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={portoSeguro} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={saudeCaixa} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={sulamerica} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={unimed} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={univida} alt="" /></div>
-                </div>
-                <div className="row m-3">
+                </div></Flip>
+                <Flip right cascade><div className="row m-3">
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={petro} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={assefaz} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={conab} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={pmerj} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={novaiguacu} alt="" /></div>
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={belroxo} alt="" /></div>
-                </div>
+                </div></Flip>
             </div>
         </>
     )

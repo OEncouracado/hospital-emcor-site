@@ -17,7 +17,7 @@ function Topbar() {
                     alt=""
                     height={50}
                     src= {emcorbranco}
-                    className= "d-inline-block align-top"
+                    className= "img-top d-inline-block align-top"
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

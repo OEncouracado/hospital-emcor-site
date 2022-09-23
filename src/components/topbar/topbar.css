@@ -13,3 +13,8 @@
     background-position: center;
     transition: ease-in-out 0.3s;
 }
+
+.img-top:hover{
+    transform:scale(1.1);
+    transition: 200ms ease-in-out;
+}

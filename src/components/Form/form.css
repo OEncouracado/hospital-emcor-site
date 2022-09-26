@@ -2,7 +2,10 @@
 
 .contact4 {
   font-family: "Montserrat", sans-serif;
-	color: #8d97ad;
+  background-image:url(../../images/contato.jpg);
+  background-size: auto;
+  background-blend-mode: multiply;
+	color: black;
   font-weight: 300;
   width: 100vw;
 }
@@ -62,8 +65,8 @@
 
 @media (max-width: 767px) {
 	.contact4 .contact-box {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
 	}
 }
 
@@ -74,4 +77,17 @@
 	}
 }
 
+/* .bg-dark{
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+} */
 
+.WhatsappButton{
+  background-image:url(../../images/ChatOnWhatsAppButton/WhatsAppButtonGreenSmall.png);
+  background-color: rgba(0, 0, 0, 0);
+  width: 13rem;
+  height: 3rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none
+}

@@ -27,8 +27,10 @@ function Topbar() {
                     <NavDropdown title="Sobre" id="basic-nav-dropdown">
                         <NavDropdown.Item href="Ohospital">O Hospital</NavDropdown.Item>
                         <NavDropdown.Item href="plano">Planos e Convênios</NavDropdown.Item>
+                        <NavDropdown.Item href="/politica-de-privacidade">Política de Privacidade</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="servicos">Serviços</Nav.Link>
+                    <Nav.Link href="contato">Contato</Nav.Link>
                     <Button className="navButton m-1" href="resultado" >Resultados</Button>
                     </Nav>
                 </Navbar.Collapse>

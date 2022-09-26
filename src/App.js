@@ -9,6 +9,8 @@ import Servicos from "./pages/Nova Pagina/servicos";
 import Planos from "./pages/plano/plano";
 import Resultados from "./pages/Resultados/Resultados";
 import Contato from "./pages/Contato/Contato";
+import Politica from "./pages/CookiePoli/Politica";
+import ScrollArrow from "./components/arrowTop/ScrollArrow";
 
 function App() {
 
@@ -23,8 +25,10 @@ function App() {
         <Route exact path="/plano" element={<Planos />} />
         <Route exact path="/resultado" element={<Resultados />} />
         <Route exact path="/contato" element={<Contato />} />
+        <Route exact path="/politica-de-privacidade" element={<Politica />} />
       </Routes>
       <Footer2 />
+      <ScrollArrow />
       <CookieConsent
         expires={150}
         buttonText="Eu compreendo."

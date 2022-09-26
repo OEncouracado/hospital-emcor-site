@@ -40,7 +40,7 @@ const Footer2 = () => {
                     <i class="fa1 fa fa-phone"></i>
                     <p className="itens-center" style={{fontSize: "16px",margin: "8px 0px 8px 15px",textAlign:"center"}}>(21) 3759-8100</p>
                 </Container2>
-                <FooterLinkCenter   href="mailto:atendimento@hospitalemcor.com.br?Subject=Contato%20do%20Site"><Container2><i className="fa1 fa fa-envelope" /><span className="itens-center" style={{fontSize: "14px",marginLeft: "12px"}}> atendimento@hospitalemcor.com.br </span></Container2>
+                <FooterLinkCenter className="itens-center" href="mailto:atendimento@hospitalemcor.com.br?Subject=Contato%20do%20Site"><Container2><i className="fa1 fa fa-envelope" /><span className="itens-center" style={{fontSize: "14px",marginLeft: "12px"}}> atendimento@hospitalemcor.com.br </span></Container2>
                 </FooterLinkCenter>
     		</Container>
           </Column>

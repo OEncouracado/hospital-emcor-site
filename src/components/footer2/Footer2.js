@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap";
+import { FaInstagram , FaFacebookSquare, FaTwitter } from "react-icons/fa"
 import React from "react";
 import "./footer2.css"
 import {
@@ -11,6 +12,7 @@ import {
   Img
 } from "./Footer2Styles";
 import emcorsfundo from "../../images/emcorsfundo.png"
+
 
   
 const Footer2 = () => {
@@ -44,14 +46,21 @@ const Footer2 = () => {
                 </FooterLinkCenter>
     		</Container>
           </Column>
-          <Column>
+          <Column className="colunasobre">
             <Heading>Sobre o Hospital</Heading>
             <p style={{color: "white", textAlign: "justify",padding:"0 10px",fontWeight:"normal"}}>Qui dolor amet ipsum qui ullamco nisi aliquip non commodo eiusmod laboris labore ex aute. Aliquip excepteur Lorem nostrud reprehenderit deserunt deserunt dolor adipisicing elit.</p>
+            <div className="footersocial">
+                <a href="https://www.facebook.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaFacebookSquare className="footersocialitem"/></a>
+                <a href="https://www.instagram.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaInstagram className="footersocialitem"/></a>
+                <a href="https://twitter.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaTwitter className="footersocialitem"/></a>
+            </div>
           </Column>
         </Row>
         
       </Container>
       <Company style={{position: "absolute", top: "90%",left:"15%"}}>MAVs &copy; 2016</Company>
+      
+      
     </Box>
   );
 };

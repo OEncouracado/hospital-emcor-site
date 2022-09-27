@@ -38,3 +38,28 @@
     transform: scale(1.05);
         transition: 200ms ease-in;
 }
+.footersocial{
+    /* position: absolute;
+    top: 89%;
+    right:15%; */
+    margin-left: 0;
+    padding-left: 0%;
+}
+.footersocialitem{
+    color:#8f9296;
+    font-size: 1.3rem;
+    margin-left: 1.1em;
+    margin-right: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.footersocialitem:hover{
+    color: white;
+    transform: scale(1.05);
+    transition: 200ms ease-in-out 200ms;
+}
+.colunasobre:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5%;
+    transition: ease-in-out 500ms;
+}

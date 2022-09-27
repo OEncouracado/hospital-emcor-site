@@ -1,10 +1,14 @@
 import { Breadcrumb } from "../../components/breadcrumb/Breadcrumb";
 import "./ohospital.css"
 import  Fade  from "react-reveal/Fade";
+import Topbar from "../../components/topbar/Topbar";
+import Footer2 from "../../components/footer2/Footer2";
 
 function Ohospital() {
     return(
-    <>  <h3 className="text-center bg-dark text-light">O Hospital</h3>
+    <>  
+    <Topbar/>
+    <h3 className="text-center bg-dark text-light">O Hospital</h3>
     <div className="container mt-3">
         
         <div class="row p-3 m-1">
@@ -35,6 +39,7 @@ function Ohospital() {
             
         </div>
         <Breadcrumb crumb={"O Hospital"} />
+        <Footer2/>
     </>
     );
 }

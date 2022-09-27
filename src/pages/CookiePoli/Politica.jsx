@@ -1,9 +1,12 @@
 import React from 'react'
 import { Breadcrumb } from '../../components/breadcrumb/Breadcrumb';
+import Footer2 from '../../components/footer2/Footer2';
+import Topbar from '../../components/topbar/Topbar';
 import "./politica.css"
 
 export default function Politica() {
   return (<>
+    <Topbar/>
     <h3 className="text-center bg-dark text-light">Política de Privacidade</h3>
     <div className="container mt-3 p-5 pt-0 teste">
       <p className='capitular'>
@@ -146,5 +149,6 @@ export default function Politica() {
       a ocorrer serão imediatamente disponibilizadas no site do EMCOR.</p>
 </div>
     <Breadcrumb crumb="Política de Privacidade"/> 
+    <Footer2/>
   </>);
 }

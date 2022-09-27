@@ -12,11 +12,15 @@ import ultrasom from "../../images/servicos/ultrasom.jpg"
 import tecnologia from "../../images/tecnologia.jpg";
 import homapa from "../../images/servicos/homapa.jpg";
 import Fade from 'react-reveal/Fade';
+import Topbar from "../../components/topbar/Topbar";
+import Footer2 from "../../components/footer2/Footer2";
 
 export default function Servicos() {
 return(
     
-    <>  <h3 className="text-center bg-dark text-light">Serviços</h3>
+    <>  
+    <Topbar/>
+    <h3 className="text-center bg-dark text-light">Serviços</h3>
         <div className="w-100">
             <div className="mb-5 w-100 p-5">
                         <div className="py-3">
@@ -145,6 +149,7 @@ return(
             </div>
         </div>
         <Breadcrumb crumb="Serviços"/>
+        <Footer2/>
     </>
 )   
 };

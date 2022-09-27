@@ -25,6 +25,9 @@ import novaiguacu from "../../images/planos-e-convenios/pmni.png"
 import belroxo from "../../images/planos-e-convenios/pmbr.jpg"
 import "./plano.css"
 import Flip from 'react-reveal/Flip'
+import Topbar from "../../components/topbar/Topbar";
+import { Breadcrumb } from "../../components/breadcrumb/Breadcrumb";
+import Footer2 from "../../components/footer2/Footer2";
 // import { useState } from "react";
 // import IModal from "../../components/modal/modal";
 
@@ -37,6 +40,7 @@ function Planos() {
 
     return(
         <>
+        <Topbar/>
         {/* {openModal && <IModal closeModal={setModal} Src={modalImg}/>}   */}
         <h3 className="text-center bg-dark text-light mb-5">Planos e Convênios</h3>
             <div className="container justify-content-center">
@@ -77,6 +81,8 @@ function Planos() {
                     <div className="ImgConv col-sm-2 p-2 m-2 d-flex align-items-center" ><img className="img-responsive  w-100" src={belroxo} alt="" /></div>
                 </div></Flip>
             </div>
+            <Breadcrumb crumb="Planos e Convênios"/>
+            <Footer2/>
         </>
     )
 }

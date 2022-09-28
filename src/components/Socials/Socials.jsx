@@ -3,6 +3,7 @@ import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 
 import { FaInstagram , FaFacebookSquare, FaTwitter } from "react-icons/fa"
+import Titulo from "../Titulo/Titulo";
 import "./socials.css"
 
 export default function Socials() {
@@ -17,7 +18,7 @@ export default function Socials() {
       );
     
   return (<>
-    <h3 className="text-center bg-dark text-light mb-4" style={{width:'100vw'}}>Nossas Redes Sociais</h3>
+    <Titulo titulo="Nossas Redes Sociais" />
     <div className='container d-flex justify-content-center align-itens-center mb-4'>
         <div className="row w-75">
             <div className="col-lg-12 d-flex align-itens-center justify-content-center">

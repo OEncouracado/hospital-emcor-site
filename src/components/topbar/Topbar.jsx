@@ -30,7 +30,10 @@ function Topbar() {
                         <NavDropdown.Item href="/politica-de-privacidade">Política de Privacidade</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="servicos">Serviços</Nav.Link>
-                    <Nav.Link href="contato">Contato</Nav.Link>
+                    <NavDropdown title="Contato" id="basic-nav-dropdown">
+                        <NavDropdown.Item href="contato">Fale Conosco</NavDropdown.Item>
+                        <NavDropdown.Item href="trabalhe-conosco">Trabalhe Conosco</NavDropdown.Item>
+                    </NavDropdown>
                     <Button className="navButton m-1" href="resultado" >Resultados</Button>
                     </Nav>
                 </Navbar.Collapse>

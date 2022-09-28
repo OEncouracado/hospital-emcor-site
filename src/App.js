@@ -10,6 +10,7 @@ import Contato from "./pages/Contato/Contato";
 import Politica from "./pages/CookiePoli/Politica";
 import ScrollArrow from "./components/arrowTop/ScrollArrow";
 import Sucesso from "./pages/Sucesso/Sucesso";
+import Trabalhe from "./pages/trabalheConosco/Trabalhe";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/contato" element={<Contato />} />
         <Route exact path="/politica-de-privacidade" element={<Politica />} />
         <Route exact path="/sucesso" element={<Sucesso />} />
+        <Route exact path="/trabalhe-conosco" element={<Trabalhe />} />
       </Routes>
       <ScrollArrow />
       <CookieConsent

@@ -35,7 +35,6 @@ function App() {
         >
           Usamos cookies em nosso site para fornecer a experiência mais relevante, lembrando suas preferências e visitas repetidas. <br /> Ao clicar em “Aceitar”, você concorda com o uso de TODOS os cookies. &emsp; <Link className="link-info" to={"/politica-de-privacidade"}>Saiba mais</Link>      {/* O que está escrito na barra */}   
       </CookieConsent>
-
     </Router>
   );
 }

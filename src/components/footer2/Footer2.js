@@ -46,7 +46,7 @@ const Footer2 = () => {
                 </FooterLinkCenter>
     		</Container>
           </Column>
-          <Column className="colunasobre">
+          <Column className="colunasobre p-2">
             <Heading>Sobre o Hospital</Heading>
             <p style={{color: "white", textAlign: "justify",padding:"0 10px",fontWeight:"normal"}}>Qui dolor amet ipsum qui ullamco nisi aliquip non commodo eiusmod laboris labore ex aute. Aliquip excepteur Lorem nostrud reprehenderit deserunt deserunt dolor adipisicing elit.</p>
             <div className="footersocial">
@@ -54,7 +54,7 @@ const Footer2 = () => {
                 <a href="https://www.instagram.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaInstagram className="footersocialitem"/></a>
                 <a href="https://twitter.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaTwitter className="footersocialitem"/></a>
             </div>
-          </Column>
+          </Column> 
         </Row>
         
       </Container>

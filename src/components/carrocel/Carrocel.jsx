@@ -8,7 +8,7 @@ import { useEffect } from 'react';
 export default function CarouselFade() {
 
     useEffect(() => {
-        var anoFundacao = '1989'
+        const anoFundacao = '1989'
         var data = new Date();
         var ano = data.getFullYear();
         var result = (ano) - (anoFundacao);
@@ -27,7 +27,7 @@ export default function CarouselFade() {
         />
         <Carousel.Caption className="caption">
           <h3>No Centro de Nova Iguaçu</h3>
-          <p>Há <span id='idade' /> cuidando do coração da baixada.</p>
+          <p>Há <span id='idade' /> anos cuidando do coração da baixada.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>

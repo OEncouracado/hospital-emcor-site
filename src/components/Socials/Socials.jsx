@@ -19,7 +19,7 @@ export default function Socials() {
     
   return (<>
     <Titulo titulo="Nossas Redes Sociais" />
-    <div className='container d-flex justify-content-center align-itens-center mb-4'>
+    <div className='container d-flex justify-content-center align-itens-center mt-4 mb-4'>
         <div className="row w-75">
             <div className="col-lg-12 d-flex align-itens-center justify-content-center">
 

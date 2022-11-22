@@ -11,7 +11,7 @@ import {
   Heading,Company,FooterLinkCenter,
   Img
 } from "./Footer2Styles";
-import emcorsfundo from "../../images/emcorsfundo.png"
+import emcorlogo from "../../images/emcorlogo.png"
 
 
   
@@ -21,7 +21,7 @@ const Footer2 = () => {
       <Container>
         <Row>
           <Column className="left">
-          <FooterLink className="logofooter" href="/"><Img src={emcorsfundo} alt="EMCOR" /></FooterLink>
+          <FooterLink className="logofooter" href="/"><Img src={emcorlogo} alt="EMCOR" /></FooterLink>
 
             <Container2 className="container-footer2-left">
                 <FooterLinkLeft href="/"> Home </FooterLinkLeft>

@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
-import frente2 from "../../images/frente2.jpg";
-import conforto from "../../images/conforto.jpeg";
-import tecnologia from "../../images/tecnologia.jpg";
+import frente3 from "../../images/frente3.JPG";
+import conforto2 from "../../images/conforto2.JPG";
+import tecnologia2 from "../../images/tecnologia2.JPG";
 import "./carousel.css"
 import { useEffect } from 'react';
 
@@ -21,8 +21,8 @@ export default function CarouselFade() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          height={400}
-          src={frente2}
+          height={500}
+          src={frente3}
           alt="First slide"
         />
         <Carousel.Caption className="caption">
@@ -33,8 +33,8 @@ export default function CarouselFade() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          height= {400}
-          src= {conforto}
+          height= {500}
+          src= {conforto2}
           alt="Second slide"
         />
 
@@ -46,8 +46,8 @@ export default function CarouselFade() {
       <Carousel.Item>
         <img
           className="d-block w-100 carousel-img"
-          height={400}
-          src={tecnologia}
+          height={500}
+          src={tecnologia2}
           alt="Third slide"
         />
 

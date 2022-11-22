@@ -1,6 +1,6 @@
 import React from "react";
 import "./topbar.css";
-import emcorbranco from "../../images/emcorbranco.jpg";
+import emcorsfundo from "../../images/emcorsfundo.png";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -15,8 +15,8 @@ function Topbar() {
                 <Navbar.Brand href="/">
                     <img
                     alt=""
-                    height={50}
-                    src= {emcorbranco}
+                    height={65}
+                    src= {emcorsfundo}
                     className= "img-top d-inline-block align-top"
                     />
                 </Navbar.Brand>

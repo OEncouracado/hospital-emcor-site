@@ -4,18 +4,18 @@ export const Box = styled.div`
 background: #292c2f;
 position: relative;
 bottom: 0;
-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 box-sizing: border-box;
-min-width: 100vh;
+min-width: 100%;
 text-align: left;
 font: bold 16px sans-serif;
+max-width: 100%
 
 padding: 31px 20px;
 margin-top: 0;
 
 
-@media (max-width: 1000px) {
-	padding: 70px 30px;
+@media (max-width: 100vw) {
+	padding: 30px 70px;
 }
 `;
 
@@ -23,9 +23,10 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content:center;
-	max-width: 1000px;
+	max-width: 100vw    ;
 	margin: 0 auto;
-	/*background: red;*/
+
+    @media (max-width: 100%) {}
 `
 export const Container2 = styled.div`s
 	justify-content: center;
@@ -35,7 +36,7 @@ export const Container2 = styled.div`s
     font-size: 18px;
 	vertical-align: middle;
     align-items: center;
-	/* background: red; */
+    @media (max-width: 100%){}
     `
 
 export const Column = styled.div`
@@ -45,7 +46,9 @@ text-align: left;
 margin-left: 10px;
 margin-right: 10px;
 align-items: center;
+max-width: 300px;
 /*background:green;*/
+
 `;
 
 export const Row = styled.div`
@@ -116,6 +119,8 @@ font-weight: bold;
 
 export const Company = styled.p`
 color: #8f9296;
+
+@media(font-size: 10px;)
 `;
 
 export const Img = styled.img`

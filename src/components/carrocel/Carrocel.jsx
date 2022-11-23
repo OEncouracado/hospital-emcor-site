@@ -26,7 +26,7 @@ export default function CarouselFade() {
           alt="First slide"
         />
         <Carousel.Caption className="caption">
-          <h3>No Centro de Nova Iguaçu</h3>
+          <h3>Mais que um Hospital, Um novo conceito.</h3>
           <p>Há <span id='idade' /> anos cuidando do coração da baixada.</p>
         </Carousel.Caption>
       </Carousel.Item>

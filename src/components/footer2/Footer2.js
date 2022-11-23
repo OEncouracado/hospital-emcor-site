@@ -58,7 +58,7 @@ const Footer2 = () => {
         </Row>
         
       </Container>
-      <Company style={{position: "absolute", top: "90%",left:"15%"}}>MAVs &copy; 2016</Company>
+      <Company className="company" style={{position: "absolute", bottom: "-1%",left:"5%"}}>MAVs &copy; 2016</Company>
       
       
     </Box>

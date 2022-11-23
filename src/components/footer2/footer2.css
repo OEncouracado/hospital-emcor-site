@@ -75,3 +75,8 @@
     border-radius: 5%;
     transition: ease-in-out 500ms;
 }
+.company{
+    @media { font: size 10px;;
+        
+    }
+}

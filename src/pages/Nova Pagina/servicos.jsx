@@ -23,7 +23,7 @@ return(
     <Topbar/>
     <h3 className="text-center bg-dark text-light">Serviços</h3>
         <div className="w-100">
-            <div className="mb-5 w-100 p-5">
+            <div className="mb-5 w-100 p-3">
                         <div className="py-3">
                             <div className="1 row">{/*1 ROW*/}
                                 {/* <!--Item Left 1 row--> */}

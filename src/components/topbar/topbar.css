@@ -1,5 +1,6 @@
 .topbar{
     background-color: transparent;
+    justify-content: space-around;
 }
 .navButton{
     font-size: 20px;
@@ -17,4 +18,9 @@
 .img-top:hover{
     transform:scale(1.1);
     transition: 200ms ease-in-out;
+}
+
+.topConteiner{
+    width: 100%;
+    margin: 0;
 }

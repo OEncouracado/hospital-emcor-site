@@ -47,10 +47,10 @@ const Footer2 = () => {
     		</Container>
           </Column>
           <Column className="colunasobre p-2">
-            <Heading>Sobre o Hospital</Heading>
-            <p style={{color: "white", textAlign: "justify",padding:"0 10px",fontWeight:"normal"}}>Qui dolor amet ipsum qui ullamco nisi aliquip non commodo eiusmod laboris labore ex aute. Aliquip excepteur Lorem nostrud reprehenderit deserunt deserunt dolor adipisicing elit.</p>
+            <Heading>Nossas Redes</Heading>
+            <br/>
             <div className="footersocial">
-                <a href="https://www.facebook.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaFacebookSquare className="footersocialitem"/></a>
+                <a href="https://www.facebook.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaFacebookSquare className="footersocialitem ms-0"/></a>
                 <a href="https://www.instagram.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaInstagram className="footersocialitem"/></a>
                 <a href="https://twitter.com/hospitalemcor" target="_blank" rel="noopener noreferrer" ><FaTwitter className="footersocialitem"/></a>
             </div>
@@ -58,7 +58,12 @@ const Footer2 = () => {
         </Row>
         
       </Container>
-      <Company className="company" style={{position: "absolute", bottom: "-1%",left:"5%"}}>MAVs &copy; 2016</Company>
+      <a href="https://oencouracado.github.io/" target="_blank" rel="noopener noreferrer">
+        <Company className="company" 
+        style={{position: "absolute", bottom: "-1%",left:"5%"}}>
+          MAVs Leo &copy; 2016
+        </Company>
+      </a>
       
       
     </Box>

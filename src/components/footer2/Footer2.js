@@ -61,7 +61,7 @@ const Footer2 = () => {
       <a href="https://oencouracado.github.io/" target="_blank" rel="noopener noreferrer">
         <Company className="company" 
         style={{position: "absolute", bottom: "-1%",left:"5%"}}>
-          MAVs Leo &copy; 2016
+          MAVs LEO &copy; 2016
         </Company>
       </a>
       

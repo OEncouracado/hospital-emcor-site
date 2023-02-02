@@ -2,6 +2,7 @@ import { Breadcrumb } from "../../components/breadcrumb/Breadcrumb";
 // import Cards from "../../components/card/Card";
 import "./novapagina.css"
 import emerg from "../../images/servicos/emerg.png"
+import gine from "../../images/servicos/gineco.jpg"
 import cti from "../../images/servicos/cti2.JPG"
 import hemo from "../../images/servicos/hemo2.JPG"
 import lab from "../../images/servicos/lab.png"
@@ -150,6 +151,17 @@ return(
                                         <div className="hover-overlay"></div>
                                         <div className="hover-3-content px-5 py-4">
                                             <h3 className="hover-3-description text-uppercase mb-0">Centro Cirúrgico </h3>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </Fade>
+                                {/* <!--Item Right 4 row--> */}
+                                <Fade right>
+                                    <div className="col-lg-4 mb-3 mb-lg-0">
+                                        <div className="hover hover-3 text-white rounded"><img style={{}} src={gine} alt=""/>
+                                        <div className="hover-overlay"></div>
+                                        <div className="hover-3-content px-5 py-4">
+                                            <h3 className="hover-3-description text-uppercase mb-0">GINECOLOGIA</h3>
                                         </div>
                                         </div>
                                     </div>
